@@ -19,7 +19,7 @@ public class Names {
         Scanner names = new Scanner(System.in);
         String name = name(names);
         String surname = surname(names);
-        System.out.println(name + " " + surname);
+        System.out.println(name + " " + surname + ", lesson 2 is finished");
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         System.out.println(dtf.format(now));
